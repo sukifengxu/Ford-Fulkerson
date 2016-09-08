@@ -33,12 +33,12 @@ public class Run {
 		Graph result = FordFulkerson.finalResidue(g, s, t);
 		
 //		System.out.println();
-		/*for (int i = 0; i < result.edgeCapacities.length; i++) {
+		for (int i = 0; i < result.edgeCapacities.length; i++) {
 			for (int j = 0; j < result.edgeCapacities[0].length; j++) {
 				System.out.print(result.edgeCapacities[i][j] + " ");
 			}
 			System.out.println();
-		}*/
+		}
 	}
 
 }
